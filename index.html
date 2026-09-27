@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+
+       <h1>🗣️ Porta-Voz</h1
+    <!-- Barra de Configuração do Nome -->
+  <!-- Área para digitar texto livre -->
+
+  <div class="custom-typing">
+    <input type="text" id="input-custom-text" placeholder="Ou digite o que você quer falar aqui...">
+    <button id="btn-speak-custom" class="btn-green">🗣️ Falar Texto</button>
+  </div>
+
+
+
+  <div class="user-config">
+    <input type="text" id="input-name" placeholder="Nome de quem cuida de mim...">
+    <button id="btn-save-name">Salvar Nome</button>
+  </div>
+
+  <div id="sentence-display" class="sentence-display"></div>
+
+  <div>
+    <button id="btn-help" class="btn-emergency">🚨 CHAMAR AJUDA</button>
+    <button id="btn-speak" class="btn-green">🔊 Falar Frase</button>
+    <button id="btn-backspace">⌫ Apagar Última</button>
+    <button id="btn-clear" class="btn-red">✕ Limpar Tudo</button>
+  </div>
+
+  <ul id="category-tabs" class="category-list"></ul>
+  <div id="board-grid" class="board-grid"></div>
+
+  <!-- A Ponte para o JavaScript (vamos arrumar ela agora!) -->
+  <script src="./script.js" ></script>
+
+</body>
+</html>
